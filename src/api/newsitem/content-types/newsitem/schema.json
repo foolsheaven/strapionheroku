@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newsitems",
+  "info": {
+    "singularName": "newsitem",
+    "pluralName": "newsitems",
+    "displayName": "newsitem"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "keyvisual": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
